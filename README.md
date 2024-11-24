@@ -32,13 +32,13 @@ email and the msg['To'] email to make sure that it sends to your email. Also, ma
 match your email. Then, it will automatically run and send you an email if your cpu or memory percentage exceeds a certain threshold, outlined in 
 Task2. 
 
+In order to run "automation part 4 (vulnerability scan)", take the code and paste it into VSC, and then run the first code segment, which installs
+the python nmap. Then run the second code segment, which imports it. Then, all you have to do is change the "target" variable to whatever your target
+IP address or hostname is. Also, if you want to scan a different set of ports, then in the "nm.scan()" method, change the second parameter to fit whatever
+ports you want to check. Then, the output will be printed. 
+
 Overall, the roles in our project were:
 Project Manager - Rahul
 Systems Modelers - Alan, Rahul, Kevin
 Python Developers - Rashad, Xander, Rayden
 Data Analyst - Rashad
-
-In order to run "automation part 4 (vulnerability scan)", take the code and paste it into VSC, and then run the first code segment, which installs
-the python nmap. Then run the second code segment, which imports it. Then, all you have to do is change the "target" variable to whatever your target
-IP address or hostname is. Also, if you want to scan a different set of ports, then in the "nm.scan()" method, change the second parameter to fit whatever
-ports you want to check. Then, the output will be printed. 
